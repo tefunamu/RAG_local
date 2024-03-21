@@ -1,0 +1,11 @@
+streamlit==1.25.0
+langchain==0.0.303
+openai==1.1.0
+duckduckgo-search==3.8.5
+anthropic==0.3.10
+llama-index==0.8.68
+pypdf==3.9.0
+faiss-cpu==1.7.4
+html2text==2020.1.16
+streamlit-authenticator==0.2.2
+extra_streamlit_components==0.1.56
