@@ -11,8 +11,6 @@ from llama_index import Prompt, SimpleDirectoryReader
 
 from logging import getLogger, StreamHandler, Formatter
 
-import common
-
 index_name = "./data/storage"
 pkl_name = "./data/stored_documents.pkl"
 
