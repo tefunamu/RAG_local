@@ -1,4 +1,8 @@
 # RAG_local
+このソフトウェアはプライベート用PCにRAGを構築することができます。
+HDDに格納したデータを学習し、chatbot形式で回答します。
+対象OS:WIndows11
+
 ## リポジトリをgit cloneする
 まず、対象のリポジトリをローカル環境にクローンする必要があります。ターミナルまたはコマンドプロンプトを開き、以下のコマンドを実行してください。
 
@@ -20,13 +24,9 @@ python3 -m venv env
 Windows:
 
 ```
-env\Scripts\activate
+python -m venv venv && .\venv\Scripts\activate
 ```
-macOS/Linux:
 
-```
-source env/bin/activate
-```
 requirement.txtを参考にライブラリをインストールする
 プロジェクトで使用しているライブラリをインストールします。通常、プロジェクトのルートディレクトリに requirements.txt ファイルが存在し、そこに必要なライブラリが記載されています。以下のコマンドを実行してください。
 ```
