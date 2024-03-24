@@ -24,7 +24,7 @@ python3 -m venv env
 Windows:
 
 ```
-python -m venv venv && .\venv\Scripts\activate
+.\venv\Scripts\activate
 ```
 
 requirement.txtを参考にライブラリをインストールする
